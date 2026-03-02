@@ -78,3 +78,4 @@ gen
 # CMake.
 CMakeFiles
 CMakeCache.txt
+build/

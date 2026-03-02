@@ -17,6 +17,7 @@
 //*
 //********************************************************************************************
 #include "egolib/Float.hpp"
+#include <cstdint>  // ensure integer types are defined
 
 uint32_t single_to_bits(float x)
 {

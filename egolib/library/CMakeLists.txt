@@ -1,5 +1,5 @@
 # Minimum required CMake version.
-cmake_minimum_required(VERSION 3.6)
+cmake_minimum_required(VERSION 3.10...4.2)
 
 # Project name and settings.
 project(egolib-library CXX)

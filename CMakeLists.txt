@@ -1,7 +1,11 @@
 # Minimum required CMake version.
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.10...4.2)
 
 project(egoboo)
+
+# use newer policies to silence warnings from dependencies
+cmake_policy(SET CMP0072 NEW)  # prefer GLVND over legacy OpenGL
+cmake_policy(SET CMP0135 NEW)  # set DOWNLOAD_EXTRACT_TIMESTAMP for FetchContent
 
 enable_testing()
 
