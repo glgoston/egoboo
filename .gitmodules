@@ -3,12 +3,12 @@
 	url = https://github.com/egoboo/egoboo-assets
 [submodule "external"]
 	path = external
-	url = https://github.com/egoboo/egoboo-external
+	url = https://github.com/glgoston/egoboo-external
 [submodule "idlib"]
 	path = idlib
-  url = https://github.com/egoboo/idlib
+  url = https://github.com/glgoston/idlib
 	branch = develop
 [submodule "idlib-game-engine"]
 	path = idlib-game-engine
-	url = https://github.com/egoboo/idlib-game-engine
+	url = https://github.com/glgoston/idlib-game-engine
 	branch = develop
